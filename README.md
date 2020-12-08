@@ -10,14 +10,28 @@ PS. I have no prior experience in using Typescript, so this also serves as my Ty
 ### How to run this program
 * install node (and npm which is installed together with it)
 * Open a terminal
-* install typescript
+* Install typescript.
+```
 sudo npm install -g typescript
-* npm init 
-* npm install --save-dev lite-server
-* npm start
+```
+* Set-up npm packages.
+```
+npm init
+```
+* Install server
+```
+npm install --save-dev lite-server
+```
+* Start server
+```
+npm start
+```
 * Open another terminal
-* run tsc -w
-* visit http://localhost:<assignedport>/helloworld.html
+* Run Typescript watchmode
+```
+run tsc -w
+```
+* Visit http://localhost:<assignedport>/helloworld.html
 open developer tools -> console, you should see "HELLO WORLD FROM TYPESCRIPT" if you were able to make things work properly.
   
 ### The Problem
